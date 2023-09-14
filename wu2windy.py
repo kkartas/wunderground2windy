@@ -3,11 +3,11 @@ import datetime
 import time
 
 # API Endpoints and Keys
-WU_STATION_ID = 'INEATR1'
-WU_API_KEY = 'b99bdf8119654c739bdf8119656c738d'
+WU_STATION_ID = 'WU_STATION_ID'
+WU_API_KEY = 'WU_API_KEY'
 WU_ENDPOINT = 'https://api.weather.com/v2/pws/observations/current?stationId={station_id}&format=json&units=m&apiKey={key}'
 
-WINDY_API_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaSI6NDg5Nzc2MCwiaWF0IjoxNjk0NzA4NjY5fQ.ulUoKb9fcqSOwSJcukC2PbSvGG9oOtVncYwy6F7rPTQ'
+WINDY_API_KEY = 'WINDY_API_KEY.eyJjaSI6NDg5Nzc2MCwiaWF0IjoxNjk0NzA4NjY5fQ.ulUoKb9fcqSOwSJcukC2PbSvGG9oOtVncYwy6F7rPTQ'
 WINDY_ENDPOINT = 'https://stations.windy.com/pws/update/' + WINDY_API_KEY
 
 # Fetch data from Weather Underground
